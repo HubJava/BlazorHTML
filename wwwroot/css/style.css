@@ -1,0 +1,106 @@
+body {
+	background-color: #010328;
+	flex-direction: column;
+	display: flex;
+	height: 100vh;
+}
+.top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #333;
+	color: rgb(236, 214, 17);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+}
+main {
+}
+.main {
+	position: fixed;
+	top: 50px;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	background-color: #f9f6f619;
+	padding: 20px;
+	overflow-y: auto;
+}
+.car {
+	top: 60px;
+	height: 55%;
+	width: 55%;
+	border-radius: 7px;
+	position: fixed;
+	right: 2%;
+	margin: 0 auto;
+	background-attachment: fixed;
+}
+
+.aside {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	background-color: #7cd1d8;
+	padding: 20px;
+}
+.bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #333333;
+	color: rgb(239, 241, 243);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+}
+.description {
+	position: fixed;
+	background-color: lightgrey;
+	width: 500px;
+	border: 15px solid grey;
+	padding: 20px;
+	margin: 30px;
+}
+.specifications {
+	margin-top: 20%;
+	position: fixed;
+	background-color: lightgrey;
+	width: 500px;
+	border: 15px solid grey;
+	padding: 20px;
+	margin-left: 30px;
+}
+.social-media {
+	position: fixed;
+	background-color: lightgrey;
+	height: 100px;
+	width: 805px;
+	border: 15px solid grey;
+	right: 2%;
+	top: 65%;
+	display: flex;
+}
+
+.social-media a {
+	display: block;
+	margin: 10px 0;
+	color: black;
+	text-decoration: none;
+	font-size: 60px;
+}
+.social-media a img.icon {
+	width: 60px;
+	height: 60px;
+	margin-right: 400px;
+	vertical-align: middle;
+	background: none;
+}
